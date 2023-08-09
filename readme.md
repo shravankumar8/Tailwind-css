@@ -1,0 +1,1 @@
+![project image](./01.creating-card/assets/Screenshot%20from%202023-08-09%2014-39-34.png)

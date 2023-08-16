@@ -2,3 +2,6 @@
         background-image: url('../images/image.png');
 
 }
+.rotate-button:hover .arrow {
+  transform: rotate(180deg);
+}

@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manage Landing page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="relative container mx-auto p-6">
-<div class="flex items-center"></div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="relative container mx-auto p-6 mt-[-60px]">
+      <div class="flex items-center justify-between">
+
+        <div class=""><img class="hover:opacity-80 w-40  inline-block" src="../img/main_logo (1).svg" alt=""></div>
+   
+        <!-- you can either add space gap between a group of elementsby gap or space-x- -->
+            <ul class="md:flex flex-wrap hidden space-x-6 ">
+                <li class="hover:text-gray-600">Pricing</li>
+                <li class="hover:text-gray-600">Product</li>
+                <li class="hover:text-gray-600">About Us</li>
+                <li class="hover:text-gray-600">Careers</li>
+                <li class="hover:text-gray-600">Community</li>
+            </ul>
+            <button class="p-2 px6  text-blue-950 bg-orange-500 rounded-full hover:bg-orange-400 hidden md:block">Get started</button>
+            <div class="md:hidden text-3xl">	&#9776; </div>
+       
+      </div>
     </nav>
-    
-</body>
+    <!-- nav completed  -->
+    <section id="hero">
+        <div></div>
+        <div class=" justify-between container flex flex-col md:flex-row items-center px-6 mx-auto mt-5 space-y-0  ">
+            <!-- this hero section contains two section side by side which return two divs first div has text content and second div contain image -->
+          <div id="text_content " class="flex flex-col  mb-32 space-y-16 md-w-1/2">
+            <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">Bring everyone together to build better products</h1>
+            <p class="max-w-sm text-center  text-gray-700 md:text-left items-center ">Manage makes it simple for software reams to plan day-to-day tasks 
+            while keeping the larger team goals in view</p>
+            <button class="p-2 px6 max-w-sm text-blue-950 bg-orange-500 rounded-full hover:bg-orange-400 ">Get started</button>
+
+          </div>
+          <!-- image -->
+          <div id="hero_image" >
+            <img class="md:mt-[-20px]" src="../img/illustration-intro.svg" alt="">
+          </div>
+        </div>
+    </section>
+    <section class="container px-4  mt-10 flex flex-col md:flex-row">
+        <!-- leftside features div -->
+        <div class="space-y-4">
+            <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">What's different about manage?</h1>
+            <p  class="max-w-sm text-center  text-gray-700  items-center ">Manage provides all the functionality your team needs without the complexity .Our software is tailor made for modern digital products</p>
+        </div>
+        <!-- right side div features  -->
+        <div></div>
+    </section>
+  </body>
 </html>
